@@ -29,4 +29,12 @@ int Entity::getEntitiesInRange() {
 	return entitiesInRange;
 }
 
-void Entity::updateAggroRange(float x) { aggroRange = x; }
+void Entity::updateX(float X) { x = X; }
+
+void Entity::updateY(float X) { y = X; }
+
+void Entity::updateZ(float X) { z = X; }
+
+void Entity::updateAggroRange(float X) { aggroRange = X; }
+
+void Entity::updateEntitiesInRange(float X) { entitiesInRange = X; }
